@@ -22,9 +22,7 @@ Markdown:
 !pip install nltk spacy matplotlib seaborn pandas
 !python -m spacy download en_core_web_sm
 print("✅ Installation complete!")
-python
-Copy
-Edit
+
 # Import libraries
 import nltk
 import spacy
