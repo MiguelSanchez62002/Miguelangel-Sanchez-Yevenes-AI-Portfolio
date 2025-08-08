@@ -1,1 +1,26 @@
-hello
+L04 _Text_Representation_ITAI2373_Lab-1.ipynb
+Markdown:
+Text Representation Lab
+In this lab, we will explore different ways to represent text in Natural Language Processing (NLP), including bag-of-words, TF-IDF, and word embeddings.
+
+python
+Copy
+Edit
+# Example code
+import pandas as pd
+from sklearn.feature_extraction.text import CountVectorizer
+
+texts = ["I love NLP", "NLP is fun", "I love machine learning"]
+vectorizer = CountVectorizer()
+X = vectorizer.fit_transform(texts)
+pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names_out())
+Markdown:
+Bag-of-Words
+The Bag-of-Words (BoW) model represents text as a vector of word counts. It ignores grammar and word order.
+
+python
+Copy
+Edit
+vectorizer = CountVectorizer()
+X = vectorizer.fit_transform(texts)
+pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names_out())
