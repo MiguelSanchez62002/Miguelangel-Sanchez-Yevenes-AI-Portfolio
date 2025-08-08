@@ -1,7 +1,7 @@
 L04 _Text_Representation_ITAI2373_Lab-1.ipynb
 Markdown:
 Text Representation Lab
-In this lab, we will explore different ways to represent text in Natural Language Processing (NLP), including bag-of-words, TF-IDF, and word embeddings.
+In this lab, we will explore various methods for representing text in Natural Language Processing (NLP), including the bag-of-words approach, TF-IDF, and word embeddings.
 
 
 # Example code
