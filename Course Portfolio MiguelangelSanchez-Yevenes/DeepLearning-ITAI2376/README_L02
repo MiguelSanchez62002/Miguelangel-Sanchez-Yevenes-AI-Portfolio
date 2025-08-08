@@ -14,8 +14,7 @@ Tokenization
 Lemmatization
 
 python
-Copy
-Edit
+
 import nltk
 import string
 from nltk.corpus import stopwords
