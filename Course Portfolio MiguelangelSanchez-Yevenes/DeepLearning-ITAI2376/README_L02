@@ -1,0 +1,29 @@
+Miguelangel_Sanchez-Yevenes_Lab_02_NLP_Preprocessing.ipynb
+Markdown:
+NLP Preprocessing Lab
+In this lab, we will perform standard NLP preprocessing steps such as:
+
+Lowercasing
+
+Removing punctuation
+
+Removing stopwords
+
+Tokenization
+
+Lemmatization
+
+python
+Copy
+Edit
+import nltk
+import string
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
+
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+
+text = "Natural Language Processing (NLP) is amazing, isn't it?"
